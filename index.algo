@@ -1,0 +1,33 @@
+ALGORITHM ALGO-2
+VAR
+    TAB-ONE:ARRAY_OF INTEGER;
+    i:INTEGER
+    n:INTEGER
+    TAB-TWO: ARRAY_OF INTEGER
+    m:INTEGER
+    total:ARRAY_OF_INTEGER
+    i=0
+    j=0
+    sum=INTEGER
+    
+BEGIN
+    Write('give me the lenght of the first table')
+    Read(n);
+    FOR i FROM 0 to n-1  STEP 1 DO
+    Write('give me the element a table')
+    Read(TAB-ONE[i])
+    Write('give me the lenght of the second table')
+    Read(m)
+    FOR i FROM 0 to m-1 STEP DO
+    write('give me the element a table')
+    Read(TAB-TWO[i])
+    Write('CONCAT')
+    total:=CONTACT(TAB-ONE,TAB-TWO)
+FOR i FROM 0 to total.lenght-1 
+FOR j from 0 to table.length-1 DO
+
+if(table1[i]<>table2[j])
+sum:=sum+table[i]
+END_IF
+    END_FOR
+END
